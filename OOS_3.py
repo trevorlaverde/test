@@ -28,7 +28,7 @@ inventory = all_divs.find_all('Sold Out')
 # printing top ten job profiles
 count = 0
 for inventory in inventory :
-    print(jinventory.text)
+    print(inventory.text)
     count = count + 1
     if(count == 1) :
         print("Out of Stock")
